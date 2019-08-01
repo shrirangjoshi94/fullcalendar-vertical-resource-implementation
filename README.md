@@ -1,0 +1,1 @@
+# fullcalendar-vertical-resource-implementation
