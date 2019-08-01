@@ -1,0 +1,19 @@
+.addNewMeetingDisplayErrors {
+    display: none;
+}
+
+.fc-time-grid-event{
+    right: -2% !important;
+}
+
+#booking_date {
+    background-color: white;
+}
+
+.modalAddNewBooking {
+    max-width: 800px;
+}
+
+.roomDetails{
+    display: none;
+}

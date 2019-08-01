@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-header__title {
+    color: #577284;
+}
+
+.app__main {
+    min-height: calc(100vh - 52px);
+    margin-top: 52px;
+    position: relative;
+    padding: 15px 15px 15px 80px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.app-header__logo {
+    padding: 0;
+}
+
+.app-header__logo > img {
+    height: 40px;
+}
+
+.app-main__sidebar {
+    width: 65px;
+    height: calc(100vh - 52px);
+    position: fixed;
+    top: 52px;
+    left: 0;
+    display: block;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.sidebar-menu .sidebar-menu__item-link {
+    color: #FFFFFF;
+    margin: 16px 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-menu__item-link {
+    padding: 10px;
+    font-size: 1.1rem;
+    display: block;
+    border-radius: 50%;
+}
+
+.app-main__sidebar .sidebar-menu a:hover,
+.app-main__sidebar .sidebar-menu a.selected,
+.app-main__sidebar .sidebar-menu li.active > a {
+    background-color: #ADD8E6;
+}
+
+.sidebar-menu .sidebar-menu__item-link .sidebar-menu__item__submenu {
+    display: none;
+    color: #000000;
+    font-size: .71rem;
+    background-color: #f1f1f1;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+
+.sidebar-menu a:hover .sidebar-menu__item__submenu {
+    display: block;
+    background-color: #FFFFFF;
+}
+
+.sidebar-list__item .dropdown-menu {
+    margin-left: 50px;
+}
+
+.sidebar-icon__bottom {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 2px;
+}
+
+.main-container {
+    height: calc(100% - 53px);
+}
+
+.saved-room {
+    overflow-y: auto
+}
+
+.page__title {
+    color: #000000;
+    font-size: 1.6rem;
+    margin: 25px 60px 20px 10px;
+}
+
+.saved-room__list {
+    background-color: #D3D3D3;
+    padding: 0;
+    list-style-type: none;
+}
+
+.saved-room__title {
+    font-size: 1.3rem;
+}
+
+.saved-room-list__item {
+    background-color: transparent;
+    font-size: 1.1rem;
+    list-style: none;
+    border: 1px solid #696969;
+}
+
+.saved-room-list__item__link {
+    color: #000000;
+    padding-left: 20px;
+}
+
+.saved-room-list__item:hover {
+    background-color: #000000;
+}
+
+.saved-room-list__item:hover > a {
+    color: #FFFFFF;
+}
+
+.saved-room__edit-form {
+    font-size: .9rem;
+}
+
+.app-saved-form {
+    padding: 50px 40px 50px 20px;
+}
+
+.add-form__body {
+    font-size: .9rem;
+}
+
+.add-form__footer {
+    padding-top: 35px;
+    width: 250px;
+    margin: auto;
+}
+
+.btn-secondary,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 255, 74, 0.5);
+}
+
+.btn-tertiary,
+.btn-tertiary:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.btn-tertiary:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, .5);
+}
